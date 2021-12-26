@@ -16,35 +16,35 @@ public class Operator {
         Scanner input = new Scanner (System.in);
         System.out.print("");
         System.out.print("Masukkan Kode Karyawan (XXX) : ");
-        String kode = input.nextLine();
+        String KodeKrywn = input.nextLine();
         System.out.print("");
         System.out.print("Masukkan Nama Karyawan : ");
-        String nama = input.nextLine();
+        String NamaKrywn = input.nextLine();
         System.out.print("");
         System.out.print("Masukkan Alamat : ");
-        String alamat = input.nextLine();
+        String AlamatKrywn = input.nextLine();
         System.out.print("");
         System.out.print("Masukkan Usia : ");
-        String usia = input.nextLine();
+        String UsiaKrywn = input.nextLine();
         System.out.print("");
         System.out.print("Masukkan Golongan : ");
-        String gol = input.nextLine();
-        gol = gol.toLowerCase();
+        String GolKrywn = input.nextLine();
+        GolKrywn = GolKrywn.toLowerCase();
         System.out.print("");
         System.out.print("Masukkan Status Menikah : ");
-        String status = input.nextLine();
-        status = status.toLowerCase();
+        String StatusNikah = input.nextLine();
+        StatusNikah = StatusNikah.toLowerCase();
         System.out.print("");
         System.out.print("Masukkan Jumlah Anak : ");
-        String jumlah_anak = input.nextLine();
+        String JumAnak = input.nextLine();
         
-        array.add(kode);
-        array.add(nama);
-        array.add(alamat);
-        array.add(usia);
-        array.add(gol);
-        array.add(status);
-        array.add(jumlah_anak);
+        array.add(KodeKrywn);
+        array.add(NamaKrywn);
+        array.add(AlamatKrywn);
+        array.add(UsiaKrywn);
+        array.add(GolKrywn);
+        array.add(StatusNikah);
+        array.add(JumAnak);
         
     }
     
